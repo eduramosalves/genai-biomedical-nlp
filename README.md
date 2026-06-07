@@ -3,7 +3,8 @@
 An end-to-end notebook that collects real biomedical literature and applies modern NLP and Generative AI to it. The domain is arbovirus surveillance (Dengue, Zika, Chikungunya) — the area I researched as a CNPq scholar.
 
 **[▶ Open in Google Colab](https://colab.research.google.com/github/eduramosalves/genai-biomedical-nlp/blob/main/biomedical_genai_nlp.ipynb)**
-<!-- update the path above after you push to your GitHub -->
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 
 ## What it does
 

@@ -1,0 +1,9 @@
+# Pinned for reproducibility. Tested on Python 3.10+ (Google Colab).
+biopython==1.83
+transformers==4.44.2
+torch==2.4.1
+scikit-learn==1.5.2
+pandas==2.2.2
+matplotlib==3.9.2
+# Optional — only needed for the hosted-LLM synthesis cell:
+openai==1.51.0
