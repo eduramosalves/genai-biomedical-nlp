@@ -1,5 +1,7 @@
 # Biomedical Literature Intelligence — GenAI + NLP over PubMed
 
+![Biomedical Literature Intelligence — GenAI + NLP over PubMed](assets/project-card.png)
+
 An end-to-end notebook that collects real biomedical literature and applies modern NLP and Generative AI to it. The domain is arbovirus surveillance (Dengue, Zika, Chikungunya) — the area I researched as a CNPq scholar.
 
 **[▶ Open in Google Colab](https://colab.research.google.com/github/eduramosalves/genai-biomedical-nlp/blob/main/biomedical_genai_nlp.ipynb)**
