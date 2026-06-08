@@ -17,7 +17,7 @@ An end-to-end notebook that collects real biomedical literature and applies mode
 | Extract | Biomedical named-entity recognition | Hugging Face `d4data/biomedical-ner-all` |
 | Generate | Abstractive summarization + LLM synthesis | Hugging Face `distilbart`, optional OpenAI `gpt-4o-mini` |
 | Validate | Hand-labeled holdout + accuracy / F1 | Scikit-Learn |
-| Visualize | Topic distribution + top entities | Matplotlib |
+| Visualize | Topic distribution + top entities + entity types | Matplotlib |
 
 ## Skills demonstrated
 
@@ -31,5 +31,5 @@ Python · Hugging Face `transformers` · Generative AI / LLMs · NLP (zero-shot 
 
 ## Notes
 
-- The validation cell ships with placeholder ground-truth labels. **Read each abstract and fill in your own labels** — that hand-labeling step is the point of the validation section.
+- Validation is a deliberate two-step exercise, not an auto-generated number. **Step 1** prints a deterministic held-out sample (15 abstracts) with the model's prediction; **Step 2** holds a `GROUND_TRUTH` dict keyed by PMID. Read each abstract, fill in your own labels, then re-run Step 2 for accuracy + per-class F1. Labels are keyed by PMID (not row order), so the score stays correct even though PubMed's relevance ordering shifts between runs. Until you label some, Step 2 honestly reports that none are labeled rather than printing a fake metric.
 - NCBI Entrez requires an email (already set in the notebook). Be polite with request volume.
